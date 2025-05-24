@@ -1,7 +1,9 @@
 # Import python packages
+import requests
+import pandas as pd
 import streamlit as st
 from snowflake.snowpark.functions import col
-import requests
+
 helpful_links = [
     "https://docs.streamlit.io",
     "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
